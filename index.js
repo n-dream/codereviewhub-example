@@ -9,7 +9,8 @@ function animate() {
 }
 
 function email() {
-  document.location.href="mailto:andrin@codereviewhub.com";
+  var username = "andrin"
+  document.location.href="mailto:" + username + "@codereviewhub.com";
 }
 
 function init() {
