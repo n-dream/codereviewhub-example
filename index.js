@@ -8,6 +8,10 @@ function animate() {
   }
 }
 
+function email() {
+  document.location.href="mailto:andrin@codereviewhub.com";
+}
+
 function init() {
   window.setInterval(animate, 500);
 }
